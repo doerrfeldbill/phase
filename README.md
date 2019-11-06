@@ -2,6 +2,7 @@
 The moon is pretty **lit**. But just how lit is it? This simple one page site uses an open API to visually represent the phases of the moon. I built it to demo an introductory lesson on practical API use cases. This is a personal project and not intended for commercial use. 
 
 🌘🌓🌔🌕🌖🌗🌒
+
 ![](LITNESS.png]
 
 ## About
