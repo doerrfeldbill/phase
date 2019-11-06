@@ -1,12 +1,29 @@
-# litness-test 🌘
-The moon is pretty **lit**. But just how lit is it? This simple one page site uses an open API to visually represent the phases of the moon. I built it to demo an introductory lesson on practical API use cases. This is a personal project and not intended for commercial use.
+# phase 🌘
+#### The moon is pretty *lit*. But just how lit is it?
+This simple one page site uses an open API to visually represent the phases of the moon. I built it to demo an introductory lesson on practical API use cases. This is a personal project and not intended for commercial use. [View it here](https://doerrfeldbill.github.io/phase/)
 
 🌘🌓🌔🌕🌖🌗🌒
 
-![](LITNESS.png)
+[![](LITNESS.png)](https://doerrfeldbill.github.io/phase/)
 
 ## About
-lintness-test calls the Farmsense API to display moon data. The Farmsense API was the only free service I could find that had free, useful moon phase and illumination data. Unfortunately, Farmsense does not serve over HTTPS. Thus, Github does not allow it to be called. The site works fine when called locally, and I'm working on creating a seperate domain for it soon.  
+**phase** calls the [Farmsense API](http://www.farmsense.net/api/) to display moon data. The Farmsense API is a free-to-use open API that returns useful moon phase and illumination data. After much research, it was the only free service I could find that returned the data I wanted.
+
+## How it Works
+Given a unix timstamp, Farmsense returns information on the current moon phase, illumination percentage, and colloquial phase name. I also added a little bit of my own scientific interpretation on how lit the moon is:
+
+0% : Woah. The moon is srsly not lit.
+0% - 10% : The moon is like, not lit at all.
+10% - 20% : The moon is like, hardly lit.
+20% - 30% : Ok yeah, the moon is barely lit.
+30% - 40% : Have you seen the moon lately? It's only sorta lit.
+40% - 50% : The moon's like almost halfway lit.
+50% - 60% : Half dark and half lit... moon you're being so bipolar.
+60% - 70% : Huh, the moon is kinda lit.
+70% - 80% : The moon is pretty cool but not completely lit.
+80% - 90% : Dope. The moon is like pretty lit.
+90% - 100 : Dang, is that moon full? No, but it srsly lit tho.
+100% : The moon is totally 100% lit.
 
 ## Disclaimer
-This was made for fun on vacation and is not that great. Code is not elegant, it's just for sample purposes.
+This was made for fun. Code is not elegant, it's just for sample purposes.
