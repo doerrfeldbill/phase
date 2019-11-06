@@ -1,16 +1,18 @@
 # phase 🌘
 #### The moon is pretty *lit*. But just how lit is it?
-This simple one page site uses an open API to visually represent the phases of the moon. I built it to demo an introductory lesson on practical API use cases. This is a personal project and not intended for commercial use. [View it here](https://doerrfeldbill.github.io/phase/)
+This simple one page site visually represents the current phase of the moon. I built it to demo an introductory example of practical API use cases. [View it here](https://doerrfeldbill.github.io/phase/)
 
 🌘🌓🌔🌕🌖🌗🌒
 
 [![](LITNESS.png)](https://doerrfeldbill.github.io/phase/)
 
 ## About
-**phase** calls the [Farmsense API](http://www.farmsense.net/api/) to display moon data. The Farmsense API is a free-to-use open API that returns useful moon phase and illumination data. After much research, it was the only free service I could find that returned the data I wanted.
+**phase** calls the [Farmsense API](http://www.farmsense.net/api/) to display moon data. The Farmsense API is a free-to-use open API that returns useful moon phase and illumination data. After much research, it was the only free service I could find that returned the data I wanted. 
 
 ## How it Works
-Given a unix timstamp, Farmsense returns information on the current moon phase, illumination percentage, and colloquial phase name. I also added a little bit of my own scientific interpretation on how lit the moon is:
+Given a unix timstamp, Farmsense returns information on the current moon phase, illumination percentage, and colloquial phase name. Depending on what the API returns, the script loads different images to reflect the current moon illumination.
+
+I also added a little bit of my own scientific interpretation on how lit the moon is:
 
 0% : Woah. The moon is srsly not lit.
 0% - 10% : The moon is like, not lit at all.
@@ -26,4 +28,4 @@ Given a unix timstamp, Farmsense returns information on the current moon phase, 
 100% : The moon is totally 100% lit.
 
 ## Disclaimer
-This was made for fun. Code is not elegant, it's just for sample purposes.
+This was made for fun. Code is not elegant. It's just for sample purposes. This is a personal project and not intended for commercial use.
