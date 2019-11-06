@@ -3,7 +3,7 @@ var timestamp = Math.round(new Date().getTime() / 1000); //Returns a unix timest
 
 // Make request to Farmsense API to retrieve moon phase
 let moon = new XMLHttpRequest();
-moon.open('GET', 'http://api.farmsense.net/v1/moonphases/?d='+timestamp, true);
+moon.open('GET', 'https://cors-anywhere.herokuapp.com/http://api.farmsense.net/v1/moonphases/?d='+timestamp, true);
 //moon.open('GET', 'http://api.farmsense.net/v1/moonphases/?d=59666674651', true); //uncomment for testing purposes
 /*
 TIMESTAMP TESTS
