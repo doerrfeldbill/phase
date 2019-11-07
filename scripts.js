@@ -79,7 +79,7 @@ moon.onload = function moonphase() {
   }
   if (finalIllumination >=  0.7 && finalIllumination < 0.8) {
     document.getElementById("moon").src="moon-phases/0.7.svg";
-    document.getElementById("litness").innerHTML = "Oh, the moon is like almost lit.";
+    document.getElementById("litness").innerHTML = "The moon is pretty cool but not totally lit.";
     document.getElementById("percentage").innerHTML = "The moon is "+percentage+" lit.";
   }
   if (finalIllumination >=  0.8 && finalIllumination < 0.9) {
