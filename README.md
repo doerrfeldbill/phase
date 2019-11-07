@@ -10,9 +10,30 @@ This simple one page site visually represents the current phase of the moon. I b
 **phase** calls the [Farmsense API](http://www.farmsense.net/api/) to display moon data. The Farmsense API is a free-to-use open API that returns useful moon phase and illumination data. After much research, it was the only free service I could find that returned the data I wanted. 
 
 ## How it Works
-Given a unix timstamp, Farmsense returns information on the current moon phase, illumination percentage, and colloquial phase name. Depending on what the API returns, the script loads different images to reflect the current moon illumination.
+Given a unix timstamp, Farmsense returns information on the current moon phase, illumination percentage, and colloquial phase name.
 
-I also added a little bit of my own scientific interpretation on how lit the moon is:
+Here is an example response:
+
+````
+{
+Error: 0,
+ErrorMsg: "success",
+TargetDate: "59666674651",
+Moon: [
+"Hunter's/Harvest Moon"
+],
+Index: 7,
+Age: 7.736128607400602,
+Phase: "1st Quarter",
+Distance: 383609.25,
+Illumination: 0.54,
+AngularDiameter: 0.5191693257750506,
+DistanceToSun: 149535897.73231384,
+SunAngularDiameter: 0.5333511907005148
+}
+````
+
+Depending on what the API returns, the script loads different images to reflect the current moon phase and illumination percentage. I also added a little bit of my own scientific interpretation on how lit the moon is:
 
 ````
 0% : Woah. The moon is srsly not lit.
