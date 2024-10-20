@@ -1,6 +1,6 @@
 # phase 🌘
 #### The moon is pretty *lit*. But just how lit is it?
-This simple one page site visually represents the current phase of the moon. I built it to demo an introductory example of practical API use cases. [View it here](https://doerrfeldbill.github.io/phase/)
+This simple one page site visually represents the current phase of the moon. I built it to demo an introductory example of practical API use cases. [View it here](https://doerrfeldbill.github.io/phase/). *The sample site no longer functions due to API changes since programming this project.*
 
 🌘🌓🌔🌕🌖🌗🌒
 
